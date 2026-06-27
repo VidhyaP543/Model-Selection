@@ -1,0 +1,58 @@
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+
+= RESTART: C:/Users/Sharath/Desktop/DataScience Intern/week2task4/src/model_selection.py
+
+==============================
+Logistic Regression
+Accuracy: 1.0
+Cross-validation mean: 0.9583333333333334
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+
+
+==============================
+Decision Tree
+Accuracy: 1.0
+Cross-validation mean: 0.95
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+
+
+==============================
+Random Forest
+Accuracy: 1.0
+Cross-validation mean: 0.9583333333333334
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        10
+           1       1.00      1.00      1.00         9
+           2       1.00      1.00      1.00        11
+
+    accuracy                           1.00        30
+   macro avg       1.00      1.00      1.00        30
+weighted avg       1.00      1.00      1.00        30
+
+
+🏆 Best Model: Logistic Regression
+Score: {'Accuracy': 1.0, 'CV Mean': np.float64(0.9583333333333334)}
